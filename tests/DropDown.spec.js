@@ -37,4 +37,5 @@ test('handle inputbox', async ({page}) =>{
         const optionText = await dropDownOption.textContent();
 
     await page.waitForTimeout(5000);
+    }
 });
